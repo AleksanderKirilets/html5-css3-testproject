@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+.page {
+width: 1920px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.header {
+  width: 100%;
+  height: 1024px;
+  background-color: #4a4a4a;
+  background-image: url(../img/photo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navigation {
+  width: 1170px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+  border: 3px solid rgb(231, 74, 26);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border: 3px solid green;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  border: 3px solid green;
+}
+
+.menu-links {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 30px 0 0;
+}
+
+.menu-img {
+  padding: 0 0 0 30px;
+}
+
+.slider {
+width: 100%;
+height: 80%;
+display: flex;
+flex-wrap: wrap;
+border: 3px solid rgb(126, 128, 0);
+}
+
+.arrow-left {
+  width: 25%;
+  height: 100%;
+  border: 3px solid rgb(128, 0, 79);
+}
+
+.slider-content {
+  width: 50%;
+  height: 100%;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.arrow-right {
+  width: 25%;
+  height: 100%;
+  border: 3px solid rgb(128, 0, 79);
+}
+
+.switch {
+width: 100%;
+height: 10px;
+margin: 40px 0;
+border: 3px solid rgb(225, 238, 48);
+}
+
+
+.services {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(128, 0, 79);
+}
+
+.services-item {
+  width: 266px;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+
+.presentation {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.projects {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(128, 0, 79);
+}
+
+.video-presentation {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.superiority {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(128, 0, 79);
+}
+
+.achievements {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.achievements-item {
+  width: 100px;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.recent-posts {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(128, 0, 79);
+}
+
+.recent-posts-item {
+  width: 100px;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.partners {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.partners-item {
+  width: 210px;
+  border: 3px solid rgb(0, 2, 128);
+}
+
+.about {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #191919;
+  border: 3px solid rgb(128, 0, 79);
+}
+
+.down-menu {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #191919;
+  border: 3px solid rgb(225, 238, 48);
+  color: #ffffff;
+}
+
+.down-menu-item {
+  width: 271px;
+  border: 3px solid rgb(176, 177, 204);
+  color: #ffffff;
+}
+
+.copyright {
+  width: 1920px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: #111111;
+  border: 3px solid rgb(47, 128, 0);
+  color: #ffffff;
+}
+
+.copyright-items {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  border: 3px solid rgb(9, 0, 128);
+}
+
+.copyright-design {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  border: 3px solid rgb(128, 0, 117);
+}
