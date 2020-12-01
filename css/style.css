@@ -1,12 +1,36 @@
 @font-face {
-  font-family: "Raleway", sans-serif;
-  src: url(../fonts/Raleway-Regular.ttf);
+  font-family: 'raleway';
+  src: url('..fonts/raleway/raleway-extrabold.eot');
+  src: url('..fonts/raleway/raleway-extrabold.eot?#iefix') format('embedded-opentype'),
+      url('..fonts/raleway/raleway-extrabold.woff2') format('woff2'),
+      url('..fonts/raleway/raleway-extrabold.woff') format('woff'),
+      url('..fonts/raleway/raleway-extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url(../fonts/Montserrat-Regular.ttf);
+  font-family: 'raleway';
+  src: url('..fonts/raleway/raleway-semibold.eot');
+  src: url('..fonts/raleway/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+      url('..fonts/raleway/raleway-semibold.woff2') format('woff2'),
+      url('..fonts/raleway/raleway-semibold.woff') format('woff'),
+      url('..fonts/raleway/raleway-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;  
 }
+
+@font-face {
+  font-family: 'raleway';
+  src: url('..fonts/raleway/raleway-medium.eot');
+  src: url('..fonts/raleway/raleway-medium.eot?#iefix') format('embedded-opentype'),
+      url('..fonts/raleway/raleway-medium.woff2') format('woff2'),
+      url('..fonts/raleway/raleway-medium.woff') format('woff'),
+      url('..fonts/raleway/raleway-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;  
+}
+
 
 .page {
 width: 1920px;
@@ -56,7 +80,8 @@ justify-content: center;
 }
 
 .logo-txt {
-  font-family: "Raleway", sans-serif;
+  font-family: 'raleway', 'arial', sans-serif;
+  font-style: normal;  
   font-size: 34px;
   text-align: right;
   letter-spacing: -0.04em;
@@ -74,7 +99,8 @@ justify-content: center;
 }
 
 .menu-links {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', 'arial', sans-serif;
+  font-style: normal;  
   font-size: 14px;
   font-weight: 300;
   color: #ffffff;
@@ -153,10 +179,11 @@ border: 3px solid rgb(225, 238, 48);
   margin: 0 17px;
 }
 
-.services-item-img {
-  display: block;
-  fill: #555555;
+.services-item-img {  
   margin: 0 0 20px 0;
+  width: 50px;
+  height: 50px;
+  fill: #555555;
 }
 
 .services-item:hover .services-item-img {
@@ -166,7 +193,8 @@ border: 3px solid rgb(225, 238, 48);
 .services-item-title {
   width: 100%;
   margin: 0 0 10px 0;
-  font-family: "Raleway", sans-serif;;
+  font-family: 'raleway', 'arial', sans-serif;
+  font-style: normal;  
   font-size: 22px;
   font-weight: 600;
   color: #8c8c8c;
@@ -178,7 +206,8 @@ border: 3px solid rgb(225, 238, 48);
 }
 
 .services-item-text {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', 'arial', sans-serif;
+  font-style: normal;  
   font-size: 14px;
   font-weight: 300;
   color: #8c8c8c;
