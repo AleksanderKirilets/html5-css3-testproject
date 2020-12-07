@@ -661,19 +661,103 @@ flex-wrap: wrap;
   border: 3px solid rgb(128, 0, 79);
 }
 
+
+
+
+
+
+
+
+
 .achievements {
   width: 1920px;
-  height: 200px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  background-color: #ffffff;
-  border: 3px solid rgb(0, 2, 128);
+  background: #211b19;
+  background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+.achievements-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 70px 0 60px 0;
 }
 
 .achievements-item {
-  width: 100px;
-  border: 3px solid rgb(0, 2, 128);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 140px;
+  margin: 0 50px;
 }
+
+.achievements-item-icon {  
+  margin: 0 0 20px 0;
+  height: 44px;
+  fill: #c7b299;
+}
+
+.achievements-item:hover .achievements-item-icon {
+  fill: #ffffff;
+}
+
+.achievements-item-data {
+  width: 100%;
+  padding: 30px 10px 21px 10px;
+  font-family: 'Montserrat', 'arial', sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
+  line-height: 36px;
+}
+
+.achievements-item:hover .achievements-item-data {
+  font-weight: 300;
+}
+
+.achievements-item-text {
+  display: block;
+  font-family: 'Montserrat', 'arial', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #c7b299;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.achievements-item:hover .achievements-item-text {
+  color: #ffffff;
+}
+
+.achievements-item:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 30px;
+  background-color: #c7b299;
+  margin: 25px 10px;
+}
+
+.achievements-item:hover:after {
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .recent-posts {
   width: 1920px;
@@ -704,6 +788,49 @@ flex-wrap: wrap;
 .partners-item {
   width: 210px;
   margin: 0 45px;
+}
+
+.partners-item-img {
+  width: 210px;
+  margin: 0 45px;
+  display: block;
+  transition: transform 0.2s ease;
+}
+.partners-item-img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.partners-item-img-360-bg {
+  width: 210px;
+  margin: 0 45px;
+  transition: transform 600ms ease-out,
+              background-color 2s ease-out,
+              border-radius 600ms ease-out;
+}
+
+.partners-item-img-360-bg:hover {
+  transform: rotate(360deg);
+  background-color: #998675; 
+  border-radius: 50%;
+}
+
+.partners-item-img180 {
+  width: 210px;
+  margin: 0 45px;
+  transition: transform 1s ease-out;
+}
+.partners-item-img180:hover {
+  transform: rotate(180deg);
+}
+
+.partners-item-img360 {
+  width: 210px;
+  margin: 0 45px;
+  transition: transform 1s ease-out;
+}
+.partners-item-img360:hover {
+  transform: rotate(360deg);
 }
 
 .about {
