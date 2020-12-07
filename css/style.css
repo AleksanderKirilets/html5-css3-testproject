@@ -773,9 +773,18 @@ flex-wrap: wrap;
   border: 3px solid rgb(0, 2, 128);
 }
 
+
+
+
+
+
+
+
+
 .partners {
   width: 1920px;
   height: 489px;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -783,6 +792,12 @@ flex-wrap: wrap;
   background-color: #4a4a4a;
   background-image: url(../img/bgpartners.jpg);
   background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.partners-items {
+  display: flex;
+  flex-wrap: wrap;  
 }
 
 .partners-item {
@@ -792,12 +807,10 @@ flex-wrap: wrap;
 
 .partners-item-img {
   width: 210px;
-  margin: 0 45px;
-  display: block;
+  
   transition: transform 0.2s ease;
 }
 .partners-item-img:hover {
-  cursor: pointer;
   transform: scale(1.5);
 }
 
