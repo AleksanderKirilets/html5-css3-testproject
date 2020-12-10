@@ -654,14 +654,63 @@ flex-wrap: wrap;
 
 .superiority {
   width: 1920px;
-  height: 200px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  background-color: #ffffff;
-  border: 3px solid rgb(128, 0, 79);
+  background-color: #ffffff;  
+}
+
+.superiority-img {
+margin: 80px 30px 0 0;
+width: 423px;
+height: 616px;
 }
 
 
+
+.superiority-content {
+
+}
+
+.superiority-title {
+  font-family: 'raleway', 'arial', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 600;
+  color: #555555;
+  margin: 80px 0 24px 0;
+  text-align: left;
+  margin: 195px 0 0 0;
+}
+
+.superiority-text {
+  width: 671px;
+  font-family: 'Montserrat', 'arial', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #8c8c8c;
+  line-height: 28px;
+  margin: 40px 0 22px 0;
+}
+
+.superiority-list {
+  margin: 40px 0 20px 0;
+}
+
+.superiority-list-item {
+  font-family: 'Montserrat', 'arial', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #8c8c8c;
+  line-height: 32px;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.superiority-list-icon {
+  margin: 0 8px 0 40px;
+  vertical-align: middle;
+}
 
 
 
